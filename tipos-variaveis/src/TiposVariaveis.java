@@ -1,5 +1,5 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         //tipos primitivos
         //estudar a classe String que representa texto na aplicação
 
@@ -18,7 +18,9 @@ public class TiposVariaveis {
          System.out.println(numero);
 
          final double VALORDE_PI = 3.14;
-      /* */
+       */
 
+
+        System.out.println("Yare yare, daze");
     }
 }

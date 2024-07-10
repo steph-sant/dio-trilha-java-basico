@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SimulacaoBancaria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double saldo = 0.0;
+        double saldo = 0;
         boolean continuar = true;
 
         while (continuar) {

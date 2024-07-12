@@ -1,3 +1,4 @@
+package ExerciciosDio;
 import java.util.Random;
 
 public class ExemploDoWhile {

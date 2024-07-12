@@ -1,3 +1,4 @@
+package ExerciciosDio;
 public class ResultadoEscolar {
    public static void main(String[] args) {
     //Condicional Composta e encadeada

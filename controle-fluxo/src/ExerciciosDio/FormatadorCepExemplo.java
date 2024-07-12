@@ -1,3 +1,4 @@
+package ExerciciosDio;
 public class FormatadorCepExemplo {
    public static void main(String[] args) throws Exception {
     try {

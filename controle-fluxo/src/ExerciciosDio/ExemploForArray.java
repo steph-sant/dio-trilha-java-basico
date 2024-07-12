@@ -1,3 +1,4 @@
+package ExerciciosDio;
 public class ExemploForArray {
     public static void main(String[] args) {
         //Em arrays o indice inicia em ZERO

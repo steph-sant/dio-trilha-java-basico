@@ -1,3 +1,4 @@
+package ExerciciosDio;
 import java.util.concurrent.ThreadLocalRandom;
 public class ExemploWhile {
 

@@ -1,3 +1,4 @@
+package DesafiosDio;
 import java.util.Scanner;
 
 public class VerificacaoServico {
@@ -13,15 +14,19 @@ public class VerificacaoServico {
         // Separando o nome do cliente e os serviços contratados
         String[] partes = entradaCliente.split(",");
         String nomeCliente = partes[0];
-        String movel = partes[1];
-        String fixa = partes[2];
-        String bandaLarga = partes[3];
-        String tv = partes[4];
         boolean contratado = false;
-        
+        for(String parte : partes) {
+            contratado = parte.equals(servico);
+            if(contratado)
+            break;
+        }
         
         // TODO: Verifique se o serviço está na lista de serviços contratados
-        
+        if(contratado) {
+            System.out.println("Sim");
+        } else {
+            System.out.println("Nao");
+        }
         scanner.close();
     }
 }
